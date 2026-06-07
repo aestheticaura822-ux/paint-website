@@ -1,7 +1,7 @@
 // frontend/src/services/api.js
 import axios from 'axios';
 
-const API_URL = 'paint-backend-indol.vercel.app';
+const API_URL = 'https://paint-backend-indol.vercel.app/api';
 
 const api = axios.create({
   baseURL: API_URL,
